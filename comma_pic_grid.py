@@ -17,8 +17,8 @@ def printer(grid):
     """
     # Take a grid and printed a certain way.
     """
-    cols = len(grid[0])
-    rows = len(grid)
+    cols = len(grid[0]) # The number of columns
+    rows = len(grid) # The number of rows
 
     for i in range(cols):
         for j in range(rows):
